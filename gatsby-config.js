@@ -15,15 +15,12 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `PT Sans Narrow`, // Headings - H1, H2, H3, H4, H5, H6
-            variants: [`regular`, `bold`],
+            family: `Public Sans`, // Headings - H1, H2, H3, H4, H5, H6
+            variants: [`300`, `700`, `800`],
           },
           {
-            family: `Source Sans Pro`, // Text & Subheadings
-            variants: [`light`, `regular`, `semi-bold`],
-          },
-          {
-            family: `Source Serif Pro`, // Reading Text
+            family: `Muli`, // Text & Subheadings
+            variants: [`300`, `400`],
           },
         ],
       },
@@ -57,10 +54,8 @@ module.exports = {
   ],
   siteMetadata: {
     title: `Colin Tracy`,
-    description:
-      `A somewhat normal, above average but still under-confident developer with full-stack skills`,
-    keywords:
-      `javascript, react, nodejs, expressjs, gatsbyjs, nextjs, colin, tracy, colin tracy, developer, software engineer`,
+    description: `A somewhat normal, above average but still under-confident developer with full-stack skills`,
+    keywords: `javascript, react, nodejs, expressjs, gatsbyjs, nextjs, colin, tracy, colin tracy, developer, software engineer`,
     image: `src/assets/favicons/**`,
     pathname: `https://www.colintracy.com`,
     region: `Nashville`,
