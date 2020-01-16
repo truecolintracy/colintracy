@@ -22,7 +22,7 @@ const theme = createMuiTheme({
     },
   },
   typography: {
-    fontFamily: "Source Sans Pro, Helvetica, Arial, sans-serif",
+    fontFamily: "Muli, Helvetica, Arial, sans-serif",
     fontWeightLight: "300",
     fontWeightRegular: "400",
     fontWeightMedium: "600",

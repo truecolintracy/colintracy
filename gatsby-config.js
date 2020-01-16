@@ -39,13 +39,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `equalizer-hitches`,
-        short_name: `EQhitches`,
+        name: `colin-tracy`,
+        short_name: `ColinTracy`,
         start_url: `/`,
-        background_color: `#2d2926`,
-        theme_color: `#2d2926`,
+        background_color: `#169B62`,
+        theme_color: `#169B62`,
         display: `minimal-ui`,
-        icon: `src/assets/favicons/**`, // This path is relative to the root of the site.
+        icon: `src/assets/logos/logo.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
@@ -56,14 +56,14 @@ module.exports = {
     title: `Colin Tracy`,
     description: `A somewhat normal, above average but still under-confident developer with full-stack skills`,
     keywords: `javascript, react, nodejs, expressjs, gatsbyjs, nextjs, colin, tracy, colin tracy, developer, software engineer`,
-    image: `src/assets/favicons/**`,
+    image: `src/assets/logos/logo.png`,
     pathname: `https://www.colintracy.com`,
-    region: `Nashville`,
-    position: `36.1627, 86.7816`,
+    region: `Salt Lake City`,
+    position: `40.7608, 111.8910`,
     facebookId: ``,
     twitterUsername: `@truecolintracy`,
     facebookUrl: ``,
-    instagramUrl: ``,
+    instagramUrl: `@truecolintracy`,
     youtubeUrl: ``,
   },
 }
