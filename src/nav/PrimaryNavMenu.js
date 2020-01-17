@@ -1,46 +1,27 @@
 const PrimaryNavMenu = [
 	{
-    title: "How Equal-i-zer® Works",
-    uri: "/"
+    title: "About Me",
+    uri: "/about-me"
   },
   {
-    title: "Support",
-    uri: "/",
-    submenuActive: true,
-    submenu: [
-      {
-        title: "Equal-i-zer® Manuals & Guides",
-        uri: "/manuals-and-guides"
-      },
-      {
-        title: "Find Your Hitch",
-        uri: "/find-your-hitch"
-      },
-      {
-        title: "Find Your Shank Size",
-        uri: "/find-your-shank-size"
-      },
-      {
-        title: "Trailering Tips",
-        uri: "/blog/trailering-tips"
-      }
-    ]
+    title: "Projects",
+    uri: "/projects",
   },
   {
-    title: "Store",
-    uri: "/store"
+    title: "Passions",
+    uri: "/passions"
   },
   {
-    title: "Blog",
-    uri: "/blog"
+    title: "Abilities",
+    uri: "/abilities"
   },
   {
-    title: "FAQ's",
-    uri: "/frequently-asked-questions"
+    title: "Voulenteering",
+    uri: "/voulenteering"
   },
   {
-    title: "Owners Guide",
-    uri: "/"
+    title: "Contact",
+    uri: "/contact"
   }
 ];
 

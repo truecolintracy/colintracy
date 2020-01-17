@@ -1,14 +1,16 @@
-import React from "react"
+import React from "react";
+import { Box, Typography } from "@material-ui/core";
+import SEO from "../components/SEO";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+export default function NotFoundPage() {
 
-const NotFoundPage = () => (
-  <Layout>
-    <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </Layout>
-)
-
-export default NotFoundPage
+  return (
+    <Box>
+      <SEO title="404: Page Not Found" />
+      <Box>
+        <Typography variant="h1" component="h1">Not Found</Typography>
+        <Typography variant="body1">You did it, you son of a bitch you really did it! You found the page that shall not be found.</Typography>
+      </Box>
+    </Box>
+  );
+}

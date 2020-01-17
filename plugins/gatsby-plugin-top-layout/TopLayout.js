@@ -6,13 +6,11 @@ import { ThemeProvider } from "@material-ui/styles";
 import Hidden from "@material-ui/core/Hidden";
 import theme from "../../src/theme";
 
+import PrimaryNav from "../../src/components/PrimaryNav";
+import Navbar from "../../src/components/Navbar";
 
-// import PrimaryNav from "../../src/components/PrimaryNav";
-// import Navbar from "../../src/components/Navbar";
-
-// import PrimaryNavMenu from "../../src/nav/PrimaryNavMenu";
-// import eqOriginalLogo from "../../src/assets/logos/original/equalizer-logo.svg";
-// import eqWhiteLogo from "../../src/assets/logos/white/equalizer-logo.svg";
+import PrimaryNavMenu from "../../src/nav/PrimaryNavMenu";
+import colinLogo from "../../src/assets/logos/logo.png";
 
 export default function TopLayout(props) {
   return (
@@ -25,29 +23,28 @@ export default function TopLayout(props) {
       </Helmet>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        {/* <Hidden mdDown>
+        <Hidden mdDown>
           <PrimaryNav
-            logo={eqOriginalLogo}
+            logo={colinLogo}
             menu={PrimaryNavMenu}
-            find={true}
-            search={true}
+            find={false}
+            search={false}
           />
-        </Hidden> */}
-        {/* <Hidden lgUp>
+        </Hidden>
+        <Hidden lgUp>
           <Navbar
             menu={PrimaryNavMenu}
             position="static"
-            logo={eqOriginalLogo}
-            mobileLogo={eqWhiteLogo}
-            find={true}
+            logo={colinLogo}
+            mobileLogo={colinLogo}
+            find={false}
             mobileHeaderColor={theme.palette.secondary.main}
           />
-        </Hidden> */}
+        </Hidden>
         {props.children}
-        
       </ThemeProvider>
     </React.Fragment>
-  );
+  )
 }
 
 TopLayout.propTypes = {
