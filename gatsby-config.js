@@ -16,10 +16,10 @@ module.exports = {
         fonts: [
           {
             family: `Public Sans`, // Headings - H1, H2, H3, H4, H5, H6
-            variants: [`300`, `700`, `800`],
+            variants: [`300`, `400`, `700`, `800`],
           },
           {
-            family: `Muli`, // Text & Subheadings
+            family: `Roboto`, // Text & Subheadings
             variants: [`300`, `400`],
           },
         ],
@@ -31,7 +31,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/assets/images`,
       },
     },
     `gatsby-transformer-sharp`,

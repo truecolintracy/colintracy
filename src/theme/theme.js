@@ -22,10 +22,9 @@ const theme = createMuiTheme({
     },
   },
   typography: {
-    fontFamily: "Muli, Helvetica, Arial, sans-serif",
+    fontFamily: "Roboto, sans-serif",
     fontWeightLight: "300",
     fontWeightRegular: "400",
-    fontWeightMedium: "600",
     h1: {
       fontFamily: "Public Sans, sans-serif",
       fontWeight: "800",
@@ -59,23 +58,23 @@ const theme = createMuiTheme({
       fontWeight: "300",
     },
     body1: {
-      fontFamily: "Muli, Helvetica, Arial, sans-serif",
-      fontWeight: "400",
+      fontFamily: "Roboto, sans-serif",
+      // fontWeight: "400",
     },
     body2: {
-      fontFamily: "Muli, Helvetica, Arial, sans-serif",
-      fontWeight: "400",
+      fontFamily: "Roboto, sans-serif",
+      // fontWeight: "400",
     },
     button: {
-      fontFamily: "Muli, Helvetica, Arial, sans-serif",
-      fontWeight: "400",
+      fontFamily: "Roboto, sans-serif",
+      // fontWeight: "400",
     },
     caption: {
-      fontFamily: "Muli, Helvetica, Arial, sans-serif",
+      fontFamily: "Roboto, sans-serif",
       fontWeight: "300",
     },
     overline: {
-      fontFamily: "Muli, Helvetica, Arial, sans-serif",
+      fontFamily: "Roboto, sans-serif",
       fontWeight: "300",
     },
   },

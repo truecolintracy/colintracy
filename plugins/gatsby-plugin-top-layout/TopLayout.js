@@ -10,7 +10,7 @@ import PrimaryNav from "../../src/components/PrimaryNav";
 import Navbar from "../../src/components/Navbar";
 
 import PrimaryNavMenu from "../../src/nav/PrimaryNavMenu";
-import colinLogo from "../../src/assets/logos/logo.png";
+import colinLogo from "../../src/assets/logos/logo.svg";
 
 export default function TopLayout(props) {
   return (
