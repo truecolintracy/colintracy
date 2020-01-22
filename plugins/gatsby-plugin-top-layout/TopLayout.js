@@ -25,7 +25,6 @@ export default function TopLayout(props) {
         <CssBaseline />
         <Hidden mdDown>
           <PrimaryNav
-            logo={colinLogo}
             menu={PrimaryNavMenu}
             find={false}
             search={false}

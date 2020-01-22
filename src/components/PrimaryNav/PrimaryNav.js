@@ -9,7 +9,7 @@ import useStyles from "./PrimaryNav-styles";
 
 function PrimaryNav(props) {
 	const classes = useStyles();    
-	const { logo, menu, find, search } = props;
+	const { menu, find, search } = props;
 	const [state, setState] = React.useState(false);
 
 	return (
@@ -20,7 +20,7 @@ function PrimaryNav(props) {
 						<React.Fragment>
 							<Box className={classes.brandLogo}>
 								<Link to="/">
-									<img src={logo} alt="" />
+									CT
 								</Link>
 							</Box>
 							<Box className={classes.mainMenu}>

@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
         marginRight: theme.spacing(2),
         marginLeft: theme.spacing(2),
         transition: "color 0.3s ease-in-out",
-        fontSize: "21px",
+        fontSize: "18px",
         "&:hover": {
             color: theme.palette.secondary.main
         }
@@ -53,7 +53,7 @@ const useStyles = makeStyles(theme => ({
     },
     brandLogo: {
         display: "flex",
-        justifyContent: "center",
+        justifyContent: "flex-start",
         alignItems: "center",
         alignContent: "center",
         overflow: "hidden",
@@ -62,14 +62,18 @@ const useStyles = makeStyles(theme => ({
         paddingTop: theme.spacing(1),
         paddingBottom: theme.spacing(1),
         "& a": {
-            minWidth: "100%",
-            minHeight: "100%",
-            display: "flex"
+            width: 50,
+            height: 50,
+            display: "flex",
+            borderColor: theme.palette.primary.dark,
+            borderWidth: 2,
+            borderRadius: "50%",
+            borderStyle: "solid",
+            justifyContent: "center",
+            alignItems: "center",
+            fontSize: theme.spacing(2),
+            color: theme.palette.primary.dark
         },
-        "& img": {
-            flexShrink: "0",
-            minWidth: "100%"
-        }
     },
     tertiaryWrapper: {
         display: "flex",

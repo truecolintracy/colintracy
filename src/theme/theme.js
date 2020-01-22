@@ -5,14 +5,14 @@ import { createMuiTheme } from "@material-ui/core/styles";
 const theme = createMuiTheme({
   palette: {
     primary: {
-      light: "#A1D7BF", // A50
-      main: "#169B62", // Primary
-      dark: "#0D5D3A", // A700
+      light: "#313D47", // A50
+      main: "#55828A", // Primary
+      dark: "#72B3B1", // A700
     },
     secondary: {
-      light: "#FFB78B", // A50
-      main: "#FF883E", // Secondary
-      dark: "#CC6C31", // A500
+      light: "#BADFCF", // A50
+      main: "#0F9ED6", // Secondary
+      dark: "#9EC9C9", // A500
     },
     error: {
       main: red.A400,
@@ -22,60 +22,60 @@ const theme = createMuiTheme({
     },
   },
   typography: {
-    fontFamily: "Roboto, sans-serif",
+    fontFamily: "Public Sans, sans-serif",
     fontWeightLight: "300",
     fontWeightRegular: "400",
     h1: {
-      fontFamily: "Public Sans, sans-serif",
-      fontWeight: "800",
+      fontFamily: "Montserrat, sans-serif",
+      fontWeight: "500",
     },
     h2: {
-      fontFamily: "Public Sans, sans-serif",
-      fontWeight: "800",
+      fontFamily: "Montserrat, sans-serif",
+      fontWeight: "500",
     },
     h3: {
-      fontFamily: "Public Sans, sans-serif",
-      fontWeight: "800",
+      fontFamily: "Montserrat, sans-serif",
+      fontWeight: "500",
     },
     h4: {
-      fontFamily: "Public Sans, sans-serif",
-      fontWeight: "700",
+      fontFamily: "Montserrat, sans-serif",
+      fontWeight: "500",
     },
     h5: {
-      fontFamily: "Public Sans, sans-serif",
-      fontWeight: "700",
+      fontFamily: "Montserrat, sans-serif",
+      fontWeight: "400",
     },
     h6: {
-      fontFamily: "Public Sans, sans-serif",
-      fontWeight: "700",
+      fontFamily: "Montserrat, sans-serif",
+      fontWeight: "400",
     },
     subtitle1: {
-      fontFamily: "Public Sans, sans-serif",
+      fontFamily: "Montserrat, sans-serif",
       fontWeight: "300",
     },
     subtitle2: {
-      fontFamily: "Public Sans, sans-serif",
+      fontFamily: "Montserrat, sans-serif",
       fontWeight: "300",
     },
     body1: {
-      fontFamily: "Roboto, sans-serif",
-      // fontWeight: "400",
+      fontFamily: "Public Sans, sans-serif",
+      fontWeight: "400",
     },
     body2: {
-      fontFamily: "Roboto, sans-serif",
-      // fontWeight: "400",
+      fontFamily: "Public Sans, sans-serif",
+      fontWeight: "300",
     },
     button: {
-      fontFamily: "Roboto, sans-serif",
-      // fontWeight: "400",
+      fontFamily: "Public Sans, sans-serif",
+      fontWeight: "500",
     },
     caption: {
-      fontFamily: "Roboto, sans-serif",
-      fontWeight: "300",
+      fontFamily: "Montserrat, sans-serif",
+      fontWeight: "400",
     },
     overline: {
-      fontFamily: "Roboto, sans-serif",
-      fontWeight: "300",
+      fontFamily: "Montserrat, sans-serif",
+      fontWeight: "400",
     },
   },
 })

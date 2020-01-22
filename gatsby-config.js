@@ -15,12 +15,12 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Public Sans`, // Headings - H1, H2, H3, H4, H5, H6
-            variants: [`300`, `400`, `700`, `800`],
+            family: `Montserrat`, // Headings - H1, H2, H3, H4, H5, H6
+            variants: [`300`, `400`, `500`],
           },
           {
-            family: `Roboto`, // Text & Subheadings
-            variants: [`300`, `400`],
+            family: `Public Sans`, // Text & Subheadings
+            variants: [`300`, `400`, `500`, `700`],
           },
         ],
       },
