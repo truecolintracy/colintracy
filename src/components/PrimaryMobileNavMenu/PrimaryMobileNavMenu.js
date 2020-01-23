@@ -83,16 +83,6 @@ const PrimaryMobileNavMenu = (props) => {
 					}
 				})}
 			</List>
-			<Divider />
-			<List>
-				{[{title: "Contact Us", uri: "/"}, {title: "Warranty Registration", uri: "/"}].map((menuItem, index) => (
-					<ListItem button key={index}>
-						<ListItemText className={classes.menuItem}>
-							<Link to={menuItem.uri} underline="none">{menuItem.title}</Link>
-						</ListItemText>
-					</ListItem>
-				))}
-			</List>
 		</Box>
 	)}
 
