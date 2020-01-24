@@ -8,9 +8,7 @@ const useStyles = makeStyles(theme => ({
         paddingRight: 0,
         paddingLeft: theme.spacing(1),
         position: "relative",
-        backgroundColor: theme.palette.common.white,
         color: theme.palette.primary.main,
-        boxShadow: theme.shadows[1],
         zIndex: 2
     },
     mainMenu: {
@@ -18,6 +16,7 @@ const useStyles = makeStyles(theme => ({
         position: "relative",
         alignItems: "center",
         flexGrow: 1,
+        justifyContent: "flex-end"
     },
     mainMenuItem: {
         marginRight: theme.spacing(2),
