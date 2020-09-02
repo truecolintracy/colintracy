@@ -12,20 +12,20 @@ function PrimaryNav(props) {
 		<>
 			<Box className={classes.root}>
 				<Box className={classes.brandLogo}>
-					<Link to="/">
+					<Link to='/' underline='none'>
 						CT
 					</Link>
 				</Box>
 				<Box className={classes.mainMenu}>
 					<Box>
-						{menu.map((menuItem, index) => {
+						{menu.map((menuItem) => {
 							return (
 								<Typography 
-									component="a"
-									key={index}
-									underline="none"
+									component='a'
+									key={menuItem.title}
+									underline='none'
 									className={classes.mainMenuItemWithSub}
-									to=""
+									to=''
 									onClick={() => setState(!state)}
 								>
 									{menuItem.title}

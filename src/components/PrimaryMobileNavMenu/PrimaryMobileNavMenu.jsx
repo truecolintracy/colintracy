@@ -3,13 +3,8 @@ import {
   Box,
   List,
   ListItem,
-  Typography,
   ListItemText,
-  ExpansionPanel,
-  ExpansionPanelSummary,
-  ExpansionPanelDetails
 } from '@material-ui/core';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Link from '../Link';
 import useStyles from './PrimaryMobileNavMenu.styles';
 
@@ -31,39 +26,14 @@ const PrimaryMobileNavMenu = (props) => {
 				</Link>
 			</Box>
 			<List>
-				{menu.map((menuItem, index) => {
-          return (
-            <ListItem button key={index}>
-              <ExpansionPanel
-                onChange={e => e.stopPropagation()}
-                className={classes.expansionPanel}
-              >
-                <ExpansionPanelSummary
-                  className={classes.expansionPanelSummary}
-                  expandIcon={
-                    <ExpandMoreIcon className={classes.expansionPanelIcon} />
-                  }
-                  aria-controls='more-content'
-                  id={`${menuItem.title}_${index}`}
-                >
-                  <Box>
-                    <Typography component='div'>{menuItem.title}</Typography>
-                  </Box>
-                </ExpansionPanelSummary>
-                <ExpansionPanelDetails
-                  className={classes.expansionPanelLinks}
-                >
-                  {menuItem.submenu.map((subMenuItem, subIndex) => (
-                    <ListItem button key={subIndex}>
-                      <ListItemText className={classes.menuItem}>
-                        <Link to={subMenuItem.uri} underline='none'>
-                          {subMenuItem.title}
-                        </Link>
-                      </ListItemText>
-                    </ListItem>
-                  ))}
-                </ExpansionPanelDetails>
-              </ExpansionPanel>
+				{menu.map((menuItem) => {
+          return (      
+            <ListItem button key={menuItem.title}>
+              <ListItemText className={classes.menuItem}>
+                <Link to={menuItem.uri} underline="none">
+                  {menuItem.title}
+                </Link>
+              </ListItemText>
             </ListItem>
           );
 				})}

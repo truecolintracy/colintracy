@@ -31,7 +31,7 @@ function Navbar(props) {
           <MenuIcon />
         </IconButton>
         <Box className={classes.logo}>
-          <Link to='/'>
+          <Link to='/' underline='none'>
             <Typography variant='h5'>Colin Tracy</Typography>
           </Link>
         </Box>
