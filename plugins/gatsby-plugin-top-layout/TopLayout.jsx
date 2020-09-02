@@ -4,10 +4,12 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { CssBaseline, Hidden } from '@material-ui/core';
 import { ThemeProvider } from '@material-ui/styles';
+
 import theme from '../../src/theme';
 
 import PrimaryNav from '../../src/components/PrimaryNav';
 import Navbar from '../../src/components/Navbar';
+import ConnectFab from '../../src/components/ConnectFab';
 
 import PrimaryNavMenu from '../../src/nav/PrimaryNavMenu';
 import colinLogo from '../../src/assets/logos/logo.svg';
@@ -43,6 +45,7 @@ export default function TopLayout(props) {
           />
         </Hidden>
         {children}
+        <ConnectFab />
       </ThemeProvider>
     </>
   )

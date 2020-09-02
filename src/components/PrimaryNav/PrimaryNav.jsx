@@ -5,7 +5,7 @@ import useStyles from './PrimaryNav.styles';
 
 function PrimaryNav(props) {
 	const classes = useStyles();    
-	const { menu, find, search } = props;
+	const { menu } = props;
 	const [state, setState] = React.useState(false);
 
 	return (
