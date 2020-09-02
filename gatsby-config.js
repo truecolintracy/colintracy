@@ -15,8 +15,8 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Montserrat`, // Headings - H1, H2, H3, H4, H5, H6
-            variants: [`300`, `400`, `500`],
+            family: `Lato`, // Headings - H1, H2, H3, H4, H5, H6
+            variants: [`300`, `400`, `700`],
           },
           {
             family: `Public Sans`, // Text & Subheadings

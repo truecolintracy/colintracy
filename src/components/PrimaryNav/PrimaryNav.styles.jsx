@@ -1,106 +1,106 @@
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
     root: {
-        display: "flex",
-        alignItems: "stretch",
-        justifyContent: "flex-start",
+        display: 'flex',
+        alignItems: 'stretch',
+        justifyContent: 'flex-start',
         paddingRight: 0,
         paddingLeft: theme.spacing(1),
-        position: "relative",
+        position: 'relative',
         color: theme.palette.primary.main,
         zIndex: 2
     },
     mainMenu: {
-        display: "flex",
-        position: "relative",
-        alignItems: "center",
+        display: 'flex',
+        position: 'relative',
+        alignItems: 'center',
         flexGrow: 1,
-        justifyContent: "flex-end"
+        justifyContent: 'flex-end'
     },
     mainMenuItem: {
         marginRight: theme.spacing(2),
         marginLeft: theme.spacing(2),
-        transition: "color 0.3s ease-in-out",
-        fontSize: "18px",
-        "&:hover": {
+        transition: 'color 0.3s ease-in-out',
+        fontSize: 18,
+        '&:hover': {
             color: theme.palette.secondary.main
         }
     },
     mainMenuItemWithSub: {
         marginRight: theme.spacing(2),
         marginLeft: theme.spacing(2),
-        transition: "color 0.3s ease-in-out",
-        fontSize: "21px",
-        "&:hover": {
+        transition: 'color 0.3s ease-in-out',
+        fontSize: 21,
+        '&:hover': {
             color: theme.palette.secondary.main,
-            cursor: "pointer"
+            cursor: 'pointer'
         }
     },
     expandIcon: {
-        position: "relative",
+        position: 'relative',
         top: theme.spacing(0.75),
         left: theme.spacing(0.5),
-        willChange: "transform",
-        transition: "transform 0.3s ease-in-out"
+        willChange: 'transform',
+        transition: 'transform 0.3s ease-in-out'
     },
     expandIconOpen: {
-        transform: "rotate(180deg)"
+        transform: 'rotate(180deg)'
     },
     expandIconClose: {
-        transform: "rotate(0deg)"
+        transform: 'rotate(0deg)'
     },
     brandLogo: {
-        display: "flex",
-        justifyContent: "flex-start",
-        alignItems: "center",
-        alignContent: "center",
-        overflow: "hidden",
-        width: "140px",
+        display: 'flex',
+        justifyContent: 'flex-start',
+        alignItems: 'center',
+        alignContent: 'center',
+        overflow: 'hidden',
+        width: 140,
         marginRight: theme.spacing(2),
         paddingTop: theme.spacing(1),
         paddingBottom: theme.spacing(1),
-        "& a": {
+        '& a': {
             width: 50,
             height: 50,
-            display: "flex",
+            display: 'flex',
             borderColor: theme.palette.primary.dark,
             borderWidth: 2,
-            borderRadius: "50%",
-            borderStyle: "solid",
-            justifyContent: "center",
-            alignItems: "center",
+            borderRadius: '50%',
+            borderStyle: 'solid',
+            justifyContent: 'center',
+            alignItems: 'center',
             fontSize: theme.spacing(2),
             color: theme.palette.primary.dark
         },
     },
     tertiaryWrapper: {
-        display: "flex",
-        position: "relative",
-        margin: "0 0 0 auto"
+        display: 'flex',
+        position: 'relative',
+        margin: '0 0 0 auto'
     },
     tertiaryMenu: {
-        display: "flex",
-        alignItems: "top",
-        transition: "color 0.3s ease-in-out",
+        display: 'flex',
+        alignItems: 'top',
+        transition: 'color 0.3s ease-in-out',
         color: theme.palette.primary.light,
-        "&:hover": {
+        '&:hover': {
             color: theme.palette.secondary.main
         }
     },
     findADealerButton: {
-        display: "flex",
-        alignItems: "center",
-        minHeight: "100%",
-        textTransform: "uppercase",
+        display: 'flex',
+        alignItems: 'center',
+        minHeight: '100%',
+        textTransform: 'uppercase',
         paddingLeft: theme.spacing(4),
         paddingRight: theme.spacing(4),
         marginLeft: theme.spacing(2),
-        fontSize: "21px",
-        transition: "background-color 0.3s ease-in-out",
+        fontSize: 21,
+        transition: 'background-color 0.3s ease-in-out',
         backgroundColor: theme.palette.secondary.main,
         color: theme.palette.common.white,
-        "&:hover": {
+        '&:hover': {
             backgroundColor: theme.palette.primary.main,
         }
     },
@@ -109,32 +109,32 @@ const useStyles = makeStyles(theme => ({
     },
     subMenu: {
         top: 0,
-        display: "flex",
-        position: "absolute",
-        alignItems: "center",
+        display: 'flex',
+        position: 'absolute',
+        alignItems: 'center',
         flexGrow: 1,
         paddingLeft: theme.spacing(20),
         backgroundColor: theme.palette.grey[100],
         boxShadow: theme.shadows[1],
         zIndex: 1,
-        willChange: "transform",
-        transition: "transform 0.3s ease-in-out",
-        width: "100%"
+        willChange: 'transform',
+        transition: 'transform 0.3s ease-in-out',
+        width: '100%'
     },
     subMenuOpen: {
-        transform: "translateY(101px)"
+        transform: 'translateY(101px)'
     },
     subMenuClose: {
-        transform: "translateY(-10px)"
+        transform: 'translateY(-10px)'
     },
     subMenuItem: {
         marginRight: theme.spacing(2),
         marginLeft: theme.spacing(2),
         paddingTop: theme.spacing(2),
         paddingBottom: theme.spacing(2),
-        transition: "color 0.3s ease-in-out",
-        fontSize: "21px",
-        "&:hover": {
+        transition: 'color 0.3s ease-in-out',
+        fontSize: 21,
+        '&:hover': {
             color: theme.palette.secondary.main
         }
     }
